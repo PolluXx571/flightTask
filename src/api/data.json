@@ -1,0 +1,72 @@
+[
+      {
+            "id": 1,
+            "flight_number": "TK1234",
+            "departure_airport_code": "IST",
+            "arrival_airport_code": "JFK",
+            "departure_time": "14:30",
+            "arrival_time": "18:00",
+            "duration": "3H - 30M",
+            "number_of_stops": 0,
+            "layover_airports": [],
+            "price": 8500,
+            "airline": "Turkish Airlines",
+            "country": "Istanbul"
+      },
+      {
+            "id": 2,
+            "flight_number": "LH4321",
+            "departure_airport_code": "FRA",
+            "arrival_airport_code": "PEK",
+            "departure_time": "09:00",
+            "arrival_time": "23:59",
+            "duration": "14H - 59M",
+            "number_of_stops": 1,
+            "layover_airports": ["MUC"],
+            "price": 10000,
+            "airline": "Lufthansa",
+            "country": "Frankfurt"
+      },
+      {
+            "id": 3,
+            "flight_number": "BA9876",
+            "departure_airport_code": "LHR",
+            "arrival_airport_code": "LAX",
+            "departure_time": "12:00",
+            "arrival_time": "22:00",
+            "duration": "10H - 00M",
+            "number_of_stops": 1,
+            "layover_airports": ["DFW"],
+            "price": 5000,
+            "airline": "British Airways",
+            "country": "London"
+      },
+      {
+            "id": 4,
+            "flight_number": "AF5432",
+            "departure_airport_code": "CDG",
+            "arrival_airport_code": "BKK",
+            "departure_time": "16:00",
+            "arrival_time": "05:00",
+            "duration": "13H - 00M",
+            "number_of_stops": 2,
+            "layover_airports": ["ORD", "FRA"],
+            "price": 9500,
+            "airline": "Air France",
+            "country": "Paris"
+      },
+      {
+            "id": 5,
+            "flight_number": "UA123",
+            "departure_airport_code": "ORD",
+            "arrival_airport_code": "SFO",
+            "departure_time": "10:00",
+            "arrival_time": "12:30",
+            "duration": "2H - 30M",
+            "number_of_stops": 0,
+            "layover_airports": [],
+            "price": 500,
+            "airline": "United Airlines",
+            "country": "Chicago"
+      }
+]

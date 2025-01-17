@@ -11,7 +11,10 @@
             "layover_airports": [],
             "price": 8500,
             "airline": "Turkish Airlines",
-            "country": "Istanbul"
+            "country": "Istanbul, Turkey",
+            "class": "Economy",
+            "baggage": "23kg included",
+            "flight_date": "2024-01-20"
       },
       {
             "id": 2,
@@ -25,7 +28,10 @@
             "layover_airports": ["MUC"],
             "price": 10000,
             "airline": "Lufthansa",
-            "country": "Frankfurt"
+            "country": "Frankfurt, Germany",
+            "class": "Business",
+            "baggage": "32kg included",
+            "flight_date": "2024-01-21"
       },
       {
             "id": 3,
@@ -39,7 +45,7 @@
             "layover_airports": ["DFW"],
             "price": 5000,
             "airline": "British Airways",
-            "country": "London"
+            "country": "London, United Kingdom"
       },
       {
             "id": 4,
@@ -53,7 +59,7 @@
             "layover_airports": ["ORD", "FRA"],
             "price": 9500,
             "airline": "Air France",
-            "country": "Paris"
+            "country": "Paris, France"
       },
       {
             "id": 5,
@@ -67,6 +73,6 @@
             "layover_airports": [],
             "price": 500,
             "airline": "United Airlines",
-            "country": "Chicago"
+            "country": "Chicago, United States"
       }
 ]

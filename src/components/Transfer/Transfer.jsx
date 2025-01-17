@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import TransferLabels from './TransferLabels';
 
 const Transfer = ({ onTransferChange }) => {
+  const [selected, setSelected] = useState('Все');
+
+  const handleTransferChange = (type) => {
+    setSelected(type);
+    onTransferChange(type);
+  };
+
   return (
     <div className='transfer'>
       <label className='transfer__label'>Количество пересадок</label>
       <div className='transfer__labels-container'>
-        <TransferLabels transfers='Все' onTransferChange={onTransferChange} />
-        <TransferLabels transfers='Без пересадок' onTransferChange={onTransferChange} />
-        <TransferLabels transfers='1 пересадка' onTransferChange={onTransferChange} />
-        <TransferLabels transfers='2 пересадка' onTransferChange={onTransferChange} />
-        <TransferLabels transfers='3 пересадка' onTransferChange={onTransferChange} />
+        {['Все', 'Без пересадок', '1 пересадка', '2 пересадка', '3 пересадка'].map(type => (
+          <TransferLabels
+            key={type}
+            transfers={type}
+            selected={selected}
+            onTransferChange={handleTransferChange}
+          />
+        ))}
       </div>
     </div>
   );
